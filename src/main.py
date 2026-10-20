@@ -1,5 +1,6 @@
 from src.templates.controllers import create_trainee, get_all_trainees, get_trainee_by_id, update_trainee, delete_trainee
 
+# Librerias
 from src.models.model import TraineeModel, TraineeUpdateModel
 from fastapi import FastAPI, HTTPException, status    
 # uvicorn src.main:app --reload
@@ -12,7 +13,7 @@ app = FastAPI(
 # Mensaje de Bienvenida
 @app.get("/")
 async def root():
-    return {"message": "API simple con FastApi"}
+    return {"message": "API simple con FastApi y desplegada en RENDER"}
 
 # Registrar aprendices
 @app.post(
