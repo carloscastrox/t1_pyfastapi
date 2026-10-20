@@ -4,7 +4,7 @@ from src.models.model import TraineeModel, TraineeUpdateModel
 
 def helper_trainee(trainee) -> dict:
     return {
-        "_id": str(trainee["_id"]),
+        "id": str(trainee["_id"]),
         "document": str(trainee["document"]),
         "firstname": trainee["firstname"],
         "lastname": trainee["lastname"],
