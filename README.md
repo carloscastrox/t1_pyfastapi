@@ -16,6 +16,13 @@ Proyecto en Python para la gestión de aprendices SENA mediante interfaz por con
 * Ficha
 * Programa
 
+## Herramientas utilizadas
+El siguiente proyecto se realizo con las siguientes:
+1. Mongo DB
+2. FastApi
+3. Python
+4. Desploy in Render, enlace o link deploy [API Deploy](https://t1-pyfastapi-tg1b.onrender.com/)
+
 # 🗂️ Estructructa del Proyecto 
 
 ```markdown
